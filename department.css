@@ -1,0 +1,83 @@
+*{margin:0%}
+
+.department{
+
+font-size: 30px;
+
+color: brown;
+
+padding: 15px;
+}
+.department h1{
+
+}
+.full_box{
+
+height: 400px;
+
+padding: 20px;
+
+border: 1px solid;
+
+margin: 25PX;
+
+box-shadow: 2px 2px 2px 2px solid gray;
+
+border-radius: 4px;
+
+background-color: #80808045;
+}
+.full_box:hover{
+    box-shadow: 5px 5px 5px 5px;
+
+}
+.full_box h6{
+
+height: 50px;
+
+font-size: 35px;
+
+font-style: italic;
+
+font-weight: 800;
+}
+.full_box h5{
+
+height: 50px;
+
+font-size: 25px;
+
+margin-left: 10px;
+
+color: blue;
+}
+.half_box{display: flex;justify-content: space-between;height: 300px;margin-left: 10px;}
+.faculty_pic{
+
+width: 35%;
+}
+.faculty_pic img{width: 100%;height: 100%;}
+.dep_details{
+
+width: 60%;
+
+height: 100%;
+}
+.dep_details p{
+
+line-height: 30px;
+
+font-size: 20px;
+}
+.dep_details h2{
+
+margin-bottom: 10px;
+
+margin-top: 10px;
+}
+.dep_details h4{
+    
+font-size: 20px;
+    
+color: red;
+}

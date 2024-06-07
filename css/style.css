@@ -1,0 +1,332 @@
+
+.intro{
+
+    text-align: center;
+    
+    background: beige;
+    }
+    .intro h1{
+    
+    color: cadetblue;
+    }
+    .intro h2{
+    
+    font-size: 34px;
+    }
+    .intro h5{
+    
+    font-size: 30px;
+    
+    color: coral;
+    }
+    
+    
+    
+    
+    .nav_bar{
+    
+        display: flex;
+            
+        justify-content: space-between;
+        
+        margin: 20px;
+        align-items: center;
+            
+        background-color: #80808054;
+            
+        }
+        
+        .logo{
+         width: 100px;
+         margin: auto;
+         border: 2px solid red;
+         border-radius: 50px;
+         overflow: hidden;
+         }
+        
+         img{width: 100%;}
+        
+        .information{width: 90%;}
+        
+        ul{
+                
+    display: flex;
+                
+    list-style: none;
+                
+    justify-content: space-evenly;
+                
+    margin-left: 400px;
+        }
+        
+    li{
+                
+    }
+        
+    a{
+                    
+    text-decoration: none;
+                    
+    color: black;
+                    
+     font-size: 20px;
+    }
+    a:hover{
+            color: red;
+            font-size: 25px;
+     }   
+         
+    .pic_with_para{
+    
+    margin: 10px;
+    }
+    
+    .pic_with_para h2{
+    
+    text-align: center;
+    
+    font-size: 30px;
+    
+    font-weight: bold;
+    
+    font-style: italic;
+    
+    color: olivedrab;
+    }
+    
+    .flex_part{
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    padding: 15px;
+    
+    height: 200px;
+    
+    align-items: center;
+    }
+    .para{
+    
+    width: 65%;
+    
+    border: 3px solid blue;
+    
+    border-radius: 5px;
+    
+    overflow: hidden;
+    
+    padding: 10px;
+    
+    height: 100%;
+    }
+    
+    .pic{
+    
+    width: 25%;
+    }
+    .pic img{width: 100%;border: 2px solid aqua;height: 100%;}
+    
+    .para p{
+    
+        color: red;
+        font-family: "Oswald", sans-serif;
+        
+    }
+    
+     .info_home h1{
+    
+    font-family: "Oswald", sans-serif;
+        
+    text-align: center;
+        
+    color: brown;
+    }
+
+
+ .home_details{
+
+display: flex;
+
+justify-content: space-between;
+
+}  
+.center{
+
+width: 30%;
+
+} 
+.center_pic{
+
+overflow: hidden;
+
+border: 2px solid lavender;
+
+border-radius: 50%;
+
+}
+ .center_pic img{
+
+    
+
+ }
+ .center_para{
+
+text-align: center;
+
+}
+ .center_para h3{
+
+font-size: 25px;
+
+}
+ .center_para p{
+    
+font-weight: 700;
+ }
+
+ .center_pic:hover{
+    border: 5px solid blueviolet;
+ }
+
+
+ .center:hover{
+    background-color: aquamarine;
+ }
+
+
+ .contact_info{
+
+display: flex;
+
+margin: 20px;
+
+justify-content: space-between;
+
+padding: 20px;
+
+height: 200px;
+
+}
+ .contact_para{
+
+width: 60%;
+
+border: 2px solid brown;
+
+}
+ .contact_para p{
+
+    padding: 8px;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+ }
+ .contact_pic{
+
+width: 30%;
+
+border: 2px solid brown;
+
+}
+ .contact_pic img{
+    height: 100%;
+    
+ }
+
+.contact_picture1{margin-left: 35%;width: 100%;}
+
+.contact_picture1 img{
+    width: 30%;
+    height: 300px;
+    border: 5px solid cadetblue;
+    border-radius: 50%;
+}
+.contact_picture2{
+
+display: flex;
+
+justify-content: space-between;
+
+height: 300px;
+
+margin: 20px;
+}
+
+.leftside{
+
+width: 30%;
+}
+.leftside img{
+
+height: 100%;
+
+border: 5px solid cadetblue;
+
+border-radius: 50%;
+}
+.middle{
+
+width: 30%;
+
+border: 2px solid red;
+
+border-radius: 5px;
+
+padding: 15px;
+
+line-height: 25px;
+}
+
+.middle a{
+    
+color: blue;
+}
+.rightside{
+
+width: 30%;
+}
+
+.rightside img{
+
+height: 100%;
+
+border: 5px solid cadetblue;
+
+border-radius: 50%;
+}
+.contact_picture3{
+
+margin-left: 35%;
+
+width: 100%;
+}
+.contact_picture3 img{
+
+width: 30%;
+
+height: 300px;
+
+border: 5px solid cadetblue;
+
+border-radius: 50%;
+}
+
+
+button{
+
+border: none;
+
+border: 2px solid rosybrown;
+
+padding: 15px;
+
+margin-left: 370px;
+
+margin-top: 13px;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
